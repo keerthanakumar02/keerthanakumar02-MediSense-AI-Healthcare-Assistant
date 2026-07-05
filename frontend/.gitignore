@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment
+backend/.env
+
+# Python
+backend/__pycache__/
+venv/
+
+# Uploads
+backend/uploads/
+backend/medicine_uploads/
+
+# Database
+backend/medisense.db
+
+# React
+frontend/node_modules/
