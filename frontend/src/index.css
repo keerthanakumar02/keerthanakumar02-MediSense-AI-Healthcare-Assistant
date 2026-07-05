@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#f4f8fb;
+  font-family:'Segoe UI',sans-serif;
+  color:#1f2937;
+}
+
+button{
+  cursor:pointer;
+  transition:0.3s;
+}
+
+input{
+  font-size:16px;
+}
+
+
+body{
+  margin:0;
+  font-family:Inter,sans-serif;
+  background:#F8FAFC;
+  transition:.3s;
+}
+
+body.dark{
+  background:#0F172A;
+  color:white;
+}
+
+body.dark table{
+  color:white;
+}
+
+body.dark input{
+  color:white;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark p,
+body.dark span{
+  color:white;
+}

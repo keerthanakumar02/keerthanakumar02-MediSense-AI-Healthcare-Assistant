@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Inter, Poppins, sans-serif;
+  background:#F8FAFC;
+  color:#1E293B;
+  overflow-x:hidden;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+button{
+  cursor:pointer;
+  transition:.3s ease;
+}
+
+button:hover{
+  transform:translateY(-2px);
+}
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#EEF2FF;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#2563EB;
+  border-radius:20px;
+}
+
+::selection{
+  background:#2563EB;
+  color:white;
+}
