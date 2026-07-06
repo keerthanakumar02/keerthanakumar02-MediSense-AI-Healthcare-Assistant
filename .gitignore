@@ -1,0 +1,9 @@
+backend/.env
+backend/__pycache__/
+backend/uploads/
+backend/medicine_uploads/
+backend/medisense.db
+
+frontend/node_modules/
+node_modules/
+venv/
