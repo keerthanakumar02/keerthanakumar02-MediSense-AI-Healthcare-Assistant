@@ -56,43 +56,48 @@ Users can:
 
 ## 📸 Screenshots
 
+### 📝 Register Page
+![Register](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190122.png)
+
+---
+
+### 🔐 Login Page
+![Login](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190238.png)
+
+---
+
 ### 🏠 Dashboard
-![Dashboard](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185449.png)
+![Dashboard](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185241.png)
 
 ---
 
 ### 📄 Upload Medical Report
-![Upload Report](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185535.png)
+![Upload Report](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185449.png)
 
 ---
 
 ### 🧠 AI Medical Analysis
-![AI Analysis](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185740.png)
+![AI Analysis](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190521.png)
 
 ---
 
 ### 📑 Report History
-![Report History](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185902.png)
+![Report History](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185535.png)
 
 ---
 
 ### 💊 Medicine Scanner
-![Medicine Scanner](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190011.png)
-
----
-
-### 💬 AI Healthcare Chat
-![AI Chat](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190122.png)
+![Medicine Scanner](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185740.png)
 
 ---
 
 ### 📚 Medicine History
-![Medicine History](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190238.png)
+![Medicine History](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190011.png)
 
 ---
 
-### 👤 Login Page
-![Login](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190521.png)
+### 💬 AI Chat Assistant
+![AI Chat](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185902.png)
 
 ---
 
@@ -174,15 +179,6 @@ GROQ_API_KEY=your_groq_api_key
 - 📊 Health Trend Analytics
 - 🔔 Email & SMS Notifications
 - 🧬 Disease Prediction using AI
-
----
-
-## 🎯 Use Cases
-
-- Hospitals & Clinics
-- Healthcare Centers
-- Medical Students
-- Personal Health Record Management
 
 ---
 
