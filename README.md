@@ -147,7 +147,7 @@ GROQ_API_KEY=your_groq_api_key
 # 📸 Screenshots
 
 ## 🏠 Dashboard
-
+https://github.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/blob/main/Screenshot%202026-07-06%20185449.png
 
 
 ---
