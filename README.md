@@ -1,21 +1,20 @@
 # 🏥 MediSense AI - Healthcare Assistant
 
-A web-based AI-powered healthcare application for **Medical Report Analysis, Medicine Recognition, AI Chat Assistance, and Health Recommendations** using React, FastAPI, Python, SQLite, and OCR.
+An AI-powered web application for **Medical Report Analysis, Medicine Recognition, AI Chat Assistance, and Health Recommendations** built with React, FastAPI, Python, SQLite, and OCR.
 
 ---
 
-# 🌟 Live Demo
+## 🌟 Live Demo
 
 🔗 Coming Soon — Deployment in Progress
 
 ---
 
-# 📌 About the Project
+## 📌 About the Project
 
-MediSense AI is an intelligent healthcare assistant developed to simplify medical report analysis and medicine information for patients.
+MediSense AI is an intelligent healthcare assistant that simplifies medical report analysis and medicine information for patients.
 
-The application allows users to:
-
+Users can:
 - 📄 Upload medical reports (PDF/Image)
 - 🤖 Receive AI-powered medical report analysis
 - 💊 Scan medicines using OCR
@@ -23,14 +22,12 @@ The application allows users to:
 - 💬 Chat with an AI Healthcare Assistant
 - ❤️ Receive health score and recommendations
 
-This project combines Artificial Intelligence, OCR, and Medical Data Analysis into one easy-to-use healthcare platform.
-
 ---
 
-# 🚀 Features
+## 🚀 Features
 
 | Feature | Description |
-|----------|-------------|
+|---|---|
 | 👤 User Authentication | Secure Login & Registration |
 | 📄 Medical Report Upload | Upload PDF or Image Reports |
 | 🧠 AI Report Analysis | AI-generated medical insights |
@@ -44,10 +41,10 @@ This project combines Artificial Intelligence, OCR, and Medical Data Analysis in
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 | Layer | Technology |
-|---------|------------|
+|---|---|
 | Frontend | React.js, Vite, HTML5, CSS3, JavaScript |
 | Backend | Python, FastAPI |
 | Database | SQLite |
@@ -57,150 +54,118 @@ This project combines Artificial Intelligence, OCR, and Medical Data Analysis in
 
 ---
 
-# 📂 Project Structure
+## 📸 Screenshots
 
-```text
+### 🏠 Dashboard
+![Dashboard](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185449.png)
+
+---
+
+### 📄 Upload Medical Report
+![Upload Report](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185535.png)
+
+---
+
+### 🧠 AI Medical Analysis
+![AI Analysis](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185740.png)
+
+---
+
+### 📑 Report History
+![Report History](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20185902.png)
+
+---
+
+### 💊 Medicine Scanner
+![Medicine Scanner](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190011.png)
+
+---
+
+### 💬 AI Healthcare Chat
+![AI Chat](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190122.png)
+
+---
+
+### 📚 Medicine History
+![Medicine History](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190238.png)
+
+---
+
+### 👤 Login Page
+![Login](https://raw.githubusercontent.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/main/Screenshot%202026-07-06%20190521.png)
+
+---
+
+## 📂 Project Structure
+
+```
 MediSense-AI-Healthcare-Assistant/
 │
 ├── backend/
 │   ├── uploads/
-│   ├── medicine_uploads/
 │   ├── main.py
 │   ├── database.py
+│   ├── ai_service.py
 │   └── requirements.txt
 │
 ├── frontend/
 │   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── services/
 │   ├── public/
 │   └── package.json
 │
 ├── .gitignore
-├── package.json
-├── package-lock.json
 └── README.md
 ```
 
 ---
 
-# ⚙️ How to Run Locally
+## ⚙️ How to Run Locally
 
-## 1️⃣ Clone Repository
+### 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant.git
-
 cd keerthanakumar02-MediSense-AI-Healthcare-Assistant
 ```
 
----
-
-## 2️⃣ Backend Setup
+### 2️⃣ Backend Setup
 
 ```bash
 cd backend
-
 python -m venv venv
-
 venv\Scripts\activate
-
 pip install -r requirements.txt
-
 uvicorn main:app --reload
 ```
 
-Backend runs at
+Backend runs at: `http://localhost:8000`
 
-```
-http://localhost:8000
-```
-
----
-
-## 3️⃣ Frontend Setup
+### 3️⃣ Frontend Setup
 
 ```bash
 cd frontend
-
 npm install
-
 npm run dev
 ```
 
-Frontend runs at
-
-```
-http://localhost:5173
-```
+Frontend runs at: `http://localhost:5173`
 
 ---
 
-# 🔑 Environment Variables
+## 🔑 Environment Variables
 
-Create a **.env** file inside the backend folder.
+Create a `.env` file inside the backend folder:
 
-```env
+```
 GROQ_API_KEY=your_groq_api_key
 ```
 
 ---
 
-# 📸 Screenshots
-
-## 🏠 Dashboard
-https://github.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Assistant/blob/main/Screenshot%202026-07-06%20185449.png
-
-
----
-
-## 📄 Upload Medical Report
-
-
-
----
-
-## 📑 Report History
-
-![Report History](Screenshot%202026-07-06%20185902.png)
-
----
-
-## 💊 Medicine Scanner
-
-![Medicine Scanner](Screenshot%202026-07-06%20190122.png)
-
----
-
-## 💬 AI Healthcare Chat
-
-
-
----
-
-## ❤️ AI Medical Analysis
-
-
-
----
-
-## 📚 Medicine History
-
-
-
----
-
-## 👤 Login Page
-
-
-
----
-
-## 📝 Registration Page
-
-
-
----
-
-# 🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 - 🩺 Doctor Appointment Booking
 - 📱 Mobile Application
@@ -209,35 +174,30 @@ https://github.com/keerthanakumar02/keerthanakumar02-MediSense-AI-Healthcare-Ass
 - 📊 Health Trend Analytics
 - 🔔 Email & SMS Notifications
 - 🧬 Disease Prediction using AI
-- 📈 Patient Progress Dashboard
 
 ---
 
-# 🎯 Use Cases
+## 🎯 Use Cases
 
-- Hospitals
-- Clinics
+- Hospitals & Clinics
 - Healthcare Centers
 - Medical Students
-- Patients
 - Personal Health Record Management
 
 ---
 
-# 👩‍💻 Developer
+## 👩‍💻 Developer
 
-### **Keerthana Kumar**
+**Keerthana Kumar**
 
-GitHub:
-
-https://github.com/keerthanakumar02
+GitHub: [keerthanakumar02](https://github.com/keerthanakumar02)
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-# ⭐ If you found this project useful, please give it a Star on GitHub!
+⭐ If you found this project useful, please give it a Star on GitHub!
